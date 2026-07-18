@@ -149,3 +149,26 @@ deployment.log
 ## Author
 
 Hepseeba Arlagadda
+## Deployment Note
+
+This project demonstrates the complete CI/CD workflow required for the assessment.
+
+The workflow successfully:
+- Builds the Flask application
+- Creates a Docker image
+- Pushes the image to Docker Hub
+- Performs Trivy vulnerability scanning
+- Validates the Helm chart using Helm Lint and Helm Template
+
+The deployment, smoke test, and rollback stages are simulated because a Kubernetes cluster was not provided as part of the assessment environment.
+
+In a production environment, these steps would be replaced with:
+
+```bash
+helm upgrade --install backend flask-api --wait
+kubectl rollout status deployment/backend
+curl http://<service>/health
+helm rollback backend
+```
+
+The workflow structure is designed so these commands can be enabled once a Kubernetes cluster and credentials are available.
