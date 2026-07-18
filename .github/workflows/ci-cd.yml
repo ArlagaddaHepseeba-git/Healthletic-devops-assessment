@@ -61,10 +61,10 @@ jobs:
         uses: azure/setup-helm@v4
 
       - name: Helm Lint
-        run: helm lint helm/backend
+        run: helm lint flask-api
 
       - name: Helm Template Validation
-        run: helm template backend helm/backend
+        run: helm template backend flask-api
 
       - name: Simulated Deployment
         run: echo "Deployment validated successfully"
