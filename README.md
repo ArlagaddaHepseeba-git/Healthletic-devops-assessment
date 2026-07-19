@@ -63,6 +63,7 @@ healthletic-flask-api/
 > **Insert Architecture Diagram Here**
 
 ```
+
 <img width="1693" height="814" alt="ChatGPT Image Jul 19, 2026, 09_20_28 AM" src="https://github.com/user-attachments/assets/74ab1585-97f2-4e50-acce-3edee8375497" />
 
 ```
@@ -124,20 +125,6 @@ docker run -itd --name healthletic-flask-api -p 5000:5000 hepseeba/healthletic-f
 
 ---
 
-# Manual Deployment Script
-
-Run
-
-```bash
-./deploy.sh <environment> <version> <image_registry>
-```
-
-Example
-
-```bash
-./deploy.sh production v1.0.0 docker.io
-```
-
 The script performs
 
 - Parameter Validation
@@ -166,13 +153,13 @@ docker logs healthletic-flask-api
 Health Check
 
 ```bash
-curl http://localhost:5000
+http://65.2.167.0:5000
 ```
 
 Browser
 
 ```
-http://<EC2-PUBLIC-IP>:5000
+http://65.2.167.0:5000
 ```
 
 Expected Response
@@ -184,8 +171,6 @@ Expected Response
 ```
 
 ---
-
-# Screenshots
 
 ## GitHub Repository
 
@@ -235,60 +220,6 @@ Expected Response
 ---
 
 
-## Rollback Logs (If Available)
-
-> **Insert Screenshot Here**
-
----
-
-## Helm Deployment Failed
-
-Verify
-
-```bash
-helm lint
-```
-
-Check
-
-```bash
-kubectl get pods
-```
-
-Describe Pods
-
-```bash
-kubectl describe pod <pod-name>
-```
-
----
-
-## Smoke Test Failed
-
-Check application logs
-
-```bash
-docker logs healthletic-flask-api
-```
-
-or
-
-```bash
-kubectl logs <pod-name>
-```
-
----
-
-## Rollback
-
-Rollback using Helm
-
-```bash
-helm rollback healthletic
-```
-
----
-
 # Deliverables
 
 - Dockerfile
@@ -302,14 +233,14 @@ helm rollback healthletic
 
 **Hepseeba Arlagadda**
 
-AWS DevOps Engineer (Fresher)
-
+AWS DevOps Engineer
 GitHub Repository:
 
-https://github.com/<your-github-username>/healthletic-flask-api
+https://github.com/ArlagaddaHepseeba-git/healthletic-flask-api
 
 Docker Hub:
 
-https://hub.docker.com/r/hepseeba/healthletic-flask-api
+https://hub.docker.com/hepseeba/healthletic-flask-api
 
 ---
+http://65.2.167.0/
