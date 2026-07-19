@@ -196,7 +196,8 @@ Expected Response
 
 ## GitHub Actions Workflow Success
 
-> **Insert Screenshot Here**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5638a241-c888-4d9b-9b7b-a496461bfcbc" />
+
 
 ---
 
@@ -226,35 +227,17 @@ Expected Response
 
 ## Smoke Test Output
 
-> **Insert Screenshot Here**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed8f4f9c-0652-41c0-8fc2-378d9c83b9ba" />
 
 ---
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/634e085f-9f75-4972-ade0-75babac6c212" />
+
+---
+
 
 ## Rollback Logs (If Available)
 
 > **Insert Screenshot Here**
-
----
-
-# Troubleshooting
-
-## Docker Login Failed
-
-```bash
-docker login
-```
-
-Verify Docker Hub credentials.
-
----
-
-## Image Push Failed
-
-Verify
-
-- Repository Name
-- Docker Login
-- Internet Connectivity
 
 ---
 
