@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project demonstrates the implementation of a CI/CD pipeline for deploying a Flask-based backend application using GitHub Actions, Docker, Docker Hub, AWS EC2, Kubernetes, and Helm.
+This project builds an automated pipeline that takes a Flask backend application from code to a live deployment, using GitHub Actions, Docker, Docker Hub, AWS EC2, Kubernetes, and Helm.
+Whenever new code is pushed, the pipeline automatically: builds a Docker image, checks it for security vulnerabilities, uploads it to Docker Hub, deploys it to Kubernetes using Helm, runs tests to make sure it's working, and rolls back to the last working version if anything fails.
 
-The pipeline automates the complete software delivery lifecycle, including building the Docker image, scanning it for vulnerabilities, pushing it to Docker Hub, deploying to Kubernetes, performing smoke tests, and rolling back automatically if deployment verification fails.
 
 ---
 
