@@ -59,14 +59,8 @@ healthletic-flask-api/
 # Solution Architecture
 
 ## Architecture Diagram
+![Uploading ChatGPT Image Jul 19, 2026, 09_20_28 AM.png…]()
 
-> **Insert Architecture Diagram Here**
-
-```
-
-<img width="1693" height="814" alt="ChatGPT Image Jul 19, 2026, 09_20_28 AM" src="https://github.com/user-attachments/assets/74ab1585-97f2-4e50-acce-3edee8375497" />
-
-```
 
 ---
 
@@ -243,4 +237,4 @@ Docker Hub:
 https://hub.docker.com/hepseeba/healthletic-flask-api
 
 ---
-http://65.2.167.0/
+
