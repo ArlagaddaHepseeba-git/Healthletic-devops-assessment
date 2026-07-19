@@ -50,8 +50,6 @@ The workflow performs the following:
 
 ## Docker Image
 
-Example:
-
 ```
 hepseeba/healthletic-flask-api:v1.0.0
 ```
@@ -146,9 +144,6 @@ deployment.log
 
 ---
 
-## Author
-
-Hepseeba Arlagadda
 ## Deployment Note
 
 This project demonstrates the complete CI/CD workflow required for the assessment.
@@ -167,8 +162,12 @@ In a production environment, these steps would be replaced with:
 ```bash
 helm upgrade --install backend flask-api --wait
 kubectl rollout status deployment/backend
-curl http://<service>/health
+http://65.2.167.0:5000/health
 helm rollback backend
 ```
 
 The workflow structure is designed so these commands can be enabled once a Kubernetes cluster and credentials are available.
+
+## Author
+
+Hepseeba Arlagadda
