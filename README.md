@@ -189,7 +189,8 @@ Expected Response
 
 ## GitHub Repository
 
-> **Insert Screenshot Here**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d3418dbe-d461-41a8-9ac4-bd4699dc293c" />
+
 
 ---
 
@@ -200,20 +201,7 @@ Expected Response
 ---
 
 ## Docker Image Build
-
-> **Insert Screenshot Here**
-
----
-
-## Docker Hub Repository
-
-> **Insert Screenshot Here**
-
----
-
-## Trivy Security Scan
-
-> **Insert Screenshot Here**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ec315bf-bc96-4033-85f8-cb960db48a2d" />
 
 ---
 
