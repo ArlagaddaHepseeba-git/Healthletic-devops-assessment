@@ -59,8 +59,7 @@ healthletic-flask-api/
 # Solution Architecture
 
 ## Architecture Diagram
-![Uploading ChatGPT Image Jul 19, 2026, 09_20_28 AM.png…]()
-
+<img width="1722" height="831" alt="image" src="https://github.com/user-attachments/assets/4aabaef7-2acb-452e-95c3-719648713cac" />
 
 ---
 
@@ -165,6 +164,21 @@ Expected Response
 ```
 
 ---
+## AWS EC2 Instance
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69f0ea5a-8728-4cc4-b345-8818080f3361" />
+
+---
+
+## Docker Image Build
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ec315bf-bc96-4033-85f8-cb960db48a2d" />
+
+---
+## Docker Pull on EC2
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07a76c5f-6197-4cd4-8b38-fb7ae6da4d90" />
+
+---
 
 ## GitHub Repository
 
@@ -177,23 +191,6 @@ Expected Response
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5638a241-c888-4d9b-9b7b-a496461bfcbc" />
 
-
----
-
-## Docker Image Build
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ec315bf-bc96-4033-85f8-cb960db48a2d" />
-
----
-
-## AWS EC2 Instance
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69f0ea5a-8728-4cc4-b345-8818080f3361" />
-
----
-
-## Docker Pull on EC2
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07a76c5f-6197-4cd4-8b38-fb7ae6da4d90" />
 
 ---
 
